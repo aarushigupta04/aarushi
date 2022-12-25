@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+#include<math.h>
+
+int main ()
+
+{
+
+  int n,i;		
+
+  float sum = 0,a,r;		
+
+  printf ("\nEnter First term :  ");
+
+  scanf ("%f", &a);		
+
+  printf ("\nEnter the Common Ratio:  ");
+
+  scanf ("%f", &r);		
+
+  printf ("\nEnter number of terms:  ");
+
+  scanf ("%d", &n);	
+
+  for (i = 0; i < n; i++)
+
+    {
+
+      sum = sum + a;		
+
+      a = a * r;		
+
+    }
+
+  printf ("\nThe Sum of Geometric Progression Series =  %f\n", sum);
+
+  return 0;
+
+}
