@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n ;
     printf("enter a number:");
@@ -13,7 +12,7 @@ int main() {
         printf("buzz");
         
     }
-    if((n%3==0 ) && (n%5==0))
+    if(n%15==0)
     {
         printf("fuzzbuzz");
     }
