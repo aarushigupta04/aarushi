@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main ()
+
+{
+
+  int n,x,f=1;		  float sum = 0,a,r;		
+
+  printf ("\nEnter a number to find factorial:  ");
+
+  scanf ("%d", &n);		
+
+  for (x = 1; x <= n; x++)
+
+    {
+
+      f = f * x;		
+
+    }
+
+  printf ("\nFactorial %d is %d \n", n,f);
+
+  return 0;
+
+}
